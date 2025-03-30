@@ -6,19 +6,17 @@ PS C:\Users\user\OneDrive\デスクトップ\samurai\git_challenge> git add hell
 PS C:\Users\user\OneDrive\デスクトップ\samurai\git_challenge> git commit -m "hello_world.txtを追加"
 [main 1e94d66] hello_world.txtを追加
  1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\user\OneDrive\デスクトップ\samurai\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+>>
+PS C:\Users\user\OneDrive\デスクトップ\samurai\git_challenge> git add hello_world.txt
 PS C:\Users\user\OneDrive\デスクトップ\samurai\git_challenge> git commit -m "日本語訳を追記"
-PS C:\Users\user\OneDrive\デスクトップ\samurai\git_challenge> git status
-On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
-  (use "git push" to publish your local commits)
-
-You are currently rebasing.
-  (all conflicts fixed: run "git rebase --continue")
-
-nothing to commit, working tree clean
+[main b3ba97d] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
 PS C:\Users\user\OneDrive\デスクトップ\samurai\git_challenge> git log --oneline
-e5b83c5 (HEAD -> main) hello_world.txtを追加
+b3ba97d (HEAD -> main) 日本語訳を追記
+d528427 (origin/main) test
+e5b83c5 hello_world.txtを追加
 1e94d66 hello_world.txtを追加
-05d500d (origin/main) test
+05d500d test
 515eae9 日本語訳を追記
 be144ed スタートコミット
