@@ -14,9 +14,4 @@ PS C:\Users\user\OneDrive\デスクトップ\samurai\git_challenge> git commit -
  1 file changed, 0 insertions(+), 0 deletions(-)
 PS C:\Users\user\OneDrive\デスクトップ\samurai\git_challenge> git log --oneline
 b3ba97d (HEAD -> main) 日本語訳を追記
-d528427 (origin/main) test
 e5b83c5 hello_world.txtを追加
-1e94d66 hello_world.txtを追加
-05d500d test
-515eae9 日本語訳を追記
-be144ed スタートコミット
